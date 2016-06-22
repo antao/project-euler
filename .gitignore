@@ -1,6 +1,2 @@
 csharp/console/euler/src/euler/bin/
-csharp/console/euler/src/euler/obj/Debug/netcoreapp1.0/.SDKVersion
-csharp/console/euler/src/euler/obj/Debug/netcoreapp1.0/dotnet-compile.assemblyinfo.cs
-csharp/console/euler/src/euler/obj/Debug/netcoreapp1.0/.IncrementalCache
-csharp/console/euler/src/euler/obj/Debug/netcoreapp1.0/dotnet-compile-csc.rsp
-csharp/console/euler/src/euler/obj/Debug/netcoreapp1.0/dotnet-compile.rsp
+csharp/console/euler/src/euler/obj/
