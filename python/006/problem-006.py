@@ -9,6 +9,7 @@
 # Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
 import math
+import time
 
 def solution():
     
@@ -20,4 +21,7 @@ def solution():
     return (squareSum - sumOfSquares)
 
 if __name__ == '__main__':
+    start = time.time()
     print(solution())
+    end = (time.time() - start)
+    print ("Execution took %s seconds" % end) 
