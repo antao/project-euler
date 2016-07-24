@@ -11,8 +11,13 @@
 import math
 
 def solution():
+    
+    sumOfSquares = 0    
+    for a in range(1, 101):
+        sumOfSquares += math.pow(a, 2)
+    
     squareSum = math.pow(sum(range(1, 101)), 2)
-    return sumSquars
+    return (squareSum - sumOfSquares)
 
 if __name__ == '__main__':
     print(solution())
