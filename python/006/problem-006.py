@@ -12,13 +12,7 @@ import math
 import time
 
 def solution():
-    
-    sumOfSquares = 0    
-    for a in range(1, 101):
-        sumOfSquares += math.pow(a, 2)
-    
-    squareSum = math.pow(sum(range(1, 101)), 2)
-    return (squareSum - sumOfSquares)
+    return (math.pow(sum(range(1, 101)), 2) - sum(x**2 for x in range(101)))
 
 if __name__ == '__main__':
     start = time.time()
