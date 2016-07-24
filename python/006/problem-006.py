@@ -12,6 +12,8 @@ import math
 import time
 
 def solution():
+    # http://www.secnetix.de/olli/Python/list_comprehensions.hawk
+    # https://en.wikipedia.org/wiki/List_comprehension
     return (math.pow(sum(range(1, 101)), 2) - sum(x**2 for x in range(101)))
 
 if __name__ == '__main__':
