@@ -19,7 +19,15 @@ def prime(number):
 
 # Brute force solution
 def solution(number):
-    return(number)
+    primes = []
+    current = 2 
+
+    while current < number + 1: 
+        if prime(current):
+            print(current)
+            primes.append(current)
+        current += 1 
+    return(sum(primes))
 
 if __name__ == '__main__':
-   print(solution(0))
+   print(solution(2000000))
