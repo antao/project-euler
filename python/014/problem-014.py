@@ -14,10 +14,6 @@
 
 # Which starting number, under one million, produces the longest chain?
 
-import math
-import time
-
-
 import time
 
 def solution():
